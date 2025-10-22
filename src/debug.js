@@ -10,7 +10,6 @@
 // Question 1: fixVariables
 // ============================================
 
-
 const fixVariables = (temp) => {
   let msg
   if (temp < 30) {
