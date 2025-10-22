@@ -9,7 +9,7 @@
 // ============================================
 // Question 1: fixVariables
 // ============================================
-// This function should print and return a message based on temperature
+
 
 const fixVariables = (temp) => {
   let msg
