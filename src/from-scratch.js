@@ -51,6 +51,7 @@ const shoutEveryLetterForLoop = (str) => {
     const newLetter = `${str[i].toUpperCase()}!`
     console.log(newLetter)
   }
+  return
 };
 
 // ============================================
@@ -71,7 +72,7 @@ const letterCaseCounts = (str) => {
       letters.neither++
     } else if (str[i] === str[i].toUpperCase()) {
       letters.uppercase++
-    } else if (str[i] === str[i].toLowerCase()) {
+    } else {
       letters.lowercase++
     }
   }
